@@ -77,7 +77,7 @@ python install.py --uninstall
 
 ## 🤝 贡献与规范
 
-本项目遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 提交规范与 [git-push-conventions](https://github.com/xiaonangou/hermes-memory-wiki-xiaotu) 防火墙标准：
+本项目遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 提交规范与 [git-push-conventions](https://github.com/iMissNan/hermes-memory-wiki-xiaotu) 防火墙标准：
 - 提交格式：`<type>(<scope>): <中文描述>`（例：`feat(汉化): 添加全量设置与权限汉化`）
 - 描述字数 ≤ 50 字符，结尾不加句号。
 - 推送前自动运行敏感信息与密钥检测 (`scripts/check-secrets.sh`)。
@@ -86,7 +86,7 @@ python install.py --uninstall
 
 ## 👤 作者 / Author
 
-- **MissNan** (GitHub: [@xiaonangou](https://github.com/xiaonangou))
+- **MissNan** (GitHub: [@iMissNan](https://github.com/iMissNan))
 
 ---
 

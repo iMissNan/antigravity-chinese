@@ -1,0 +1,2 @@
+# Allowlist for check-secrets.sh
+# Add paths here that trigger false positives in secret detection

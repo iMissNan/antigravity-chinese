@@ -1,0 +1,11 @@
+# Git ignore rules for imissu
+*.bak
+*.pyc
+__pycache__/
+.env
+.env.*
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-imissu - Antigravity 2.0 & Antigravity IDE 深度原生全量汉化一键安装器
+antigravity-chinese - Antigravity 2.0 & Antigravity IDE 深度原生全量汉化一键安装器
 支持自动检测、安全备份、语法自检与一键回滚。
 """
 
@@ -16,7 +16,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 
 def log(msg):
-    print(f"\033[1;32m[imissu 汉化]\033[0m {msg}")
+    print(f"\033[1;32m[antigravity-chinese 汉化]\033[0m {msg}")
 
 def log_warn(msg):
     print(f"\033[1;33m[警告]\033[0m {msg}")
@@ -384,14 +384,14 @@ def patch_antigravity_ide(ide_dir, uninstall=False):
     return True
 
 def main():
-    parser = argparse.ArgumentParser(description="imissu - Antigravity 深度原生汉化安装器")
+    parser = argparse.ArgumentParser(description="antigravity-chinese - Antigravity 深度原生汉化安装器")
     parser.add_argument("--antigravity-dir", help="Antigravity 2.0 安装根目录")
     parser.add_argument("--ide-dir", help="Antigravity IDE 安装根目录")
     parser.add_argument("--uninstall", action="store_true", help="卸载汉化补丁，还原初始备份")
     args = parser.parse_args()
 
     print("=" * 60)
-    print("  imissu - Google Antigravity 2.0 & IDE 深度全量汉化")
+    print("  antigravity-chinese - Google Antigravity 2.0 & IDE 深度全量汉化")
     print("=" * 60)
 
     ag_dir = args.antigravity_dir or find_default_antigravity_paths()

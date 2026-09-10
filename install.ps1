@@ -3,7 +3,7 @@
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
 Write-Host "============================================================" -ForegroundColor Cyan
-Write-Host "  imissu - Antigravity 深度全量汉化一键启动器" -ForegroundColor Cyan
+Write-Host "  antigravity-chinese - Antigravity 深度全量汉化一键启动器" -ForegroundColor Cyan
 Write-Host "============================================================" -ForegroundColor Cyan
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path

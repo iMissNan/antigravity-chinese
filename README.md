@@ -1,4 +1,4 @@
-# 🌌 imissu - Google Antigravity 深度原生全量汉化包与复刻工具箱
+# 🌌 antigravity-chinese - Google Antigravity 深度原生全量汉化包与复刻工具箱
 
 适用于 **Google Antigravity 2.0**（独立伴侣客户端）与 **Antigravity IDE**（VS Code 核心开发环境）的双核心深度原生全量简体中文汉化项目。
 
@@ -11,7 +11,7 @@
 2. **高级权限与规则未翻译**：网络访问规则（`Network Access Rules`）、工具权限卡片（`Tool Permissions`）、工件审查策略等关键配置缺失翻译。
 3. **Windows 环境乱码困扰**：非标准编码写入导致中文字符串变 `\ufffd` 替换符，导致 DOM 拦截引擎完全失效。
 
-**imissu** 提供了**架构级深度双向补丁**：
+**antigravity-chinese** 提供了**架构级深度双向补丁**：
 - **Antigravity 2.0 原生 DOM 拦截引擎**：高精度实时翻译 Electron 网页端呈现的所有卡片、徽章数字、下拉菜单和提示词。
 - **Antigravity IDE 核心 Bundle 本地化**：深度修补工作台与 Agent React 组件，并经过 AST 语法树自检校验。
 - **100% 纯净与零依赖**：基于 Python 标准库，无任何第三方包依赖，纯原生运行。
@@ -46,7 +46,7 @@ python install.py --antigravity-dir "D:\ruanjian\IED\Antigravity" --ide-dir "C:\
 
 ## 🛠️ 汉化覆盖明细
 
-| 界面模块 | 英文原版 | imissu 精校中文 |
+| 界面模块 | 英文原版 | antigravity-chinese 精校中文 |
 | :--- | :--- | :--- |
 | **排队策略** | `Queue` / `Send Immediately` | **排队** / **立即发送** |
 | **快捷键入口** | `Keyboard shortcuts` | **键盘快捷键** |
